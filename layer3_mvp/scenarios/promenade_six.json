@@ -1,0 +1,110 @@
+{
+  "scenario": "promenade_six",
+  "scene": "scene04",
+  "description": "6 people walking about 22 m each in scene04 (auto-generated routes).",
+  "max_walk_seconds": 37,
+  "actors": [
+    {
+      "actor_id": "person_1",
+      "action": "walk",
+      "avatar": "avatar1",
+      "start": [
+        6.88,
+        -7.64,
+        44.67
+      ],
+      "goal": [
+        22.34,
+        -7.73,
+        31.4
+      ],
+      "start_time_s": 0.0,
+      "seed": 10
+    },
+    {
+      "actor_id": "person_2",
+      "action": "walk",
+      "avatar": "avatar2",
+      "start": [
+        1.33,
+        -7.58,
+        53.69
+      ],
+      "goal": [
+        13.35,
+        -7.69,
+        35.55
+      ],
+      "start_time_s": 0.0,
+      "seed": 11
+    },
+    {
+      "actor_id": "person_3",
+      "action": "walk",
+      "avatar": "avatar3",
+      "start": [
+        13.45,
+        -7.69,
+        35.82
+      ],
+      "goal": [
+        -2.75,
+        -7.26,
+        47.45
+      ],
+      "start_time_s": 0.0,
+      "seed": 12
+    },
+    {
+      "actor_id": "person_4",
+      "action": "walk",
+      "avatar": "avatar4",
+      "start": [
+        4.43,
+        -7.63,
+        48.81
+      ],
+      "goal": [
+        18.22,
+        -7.74,
+        32.22
+      ],
+      "start_time_s": 0.0,
+      "seed": 13
+    },
+    {
+      "actor_id": "person_5",
+      "action": "walk",
+      "avatar": "avatar6",
+      "start": [
+        9.4,
+        -7.64,
+        38.41
+      ],
+      "goal": [
+        -8.89,
+        -7.21,
+        52.05
+      ],
+      "start_time_s": 0.0,
+      "seed": 14
+    },
+    {
+      "actor_id": "person_6",
+      "action": "walk",
+      "avatar": "avatar8",
+      "start": [
+        23.17,
+        -7.52,
+        34.38
+      ],
+      "goal": [
+        6.68,
+        -7.54,
+        49.81
+      ],
+      "start_time_s": 0.0,
+      "seed": 15
+    }
+  ]
+}

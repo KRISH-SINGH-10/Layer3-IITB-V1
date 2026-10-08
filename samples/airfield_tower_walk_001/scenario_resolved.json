@@ -1,0 +1,24 @@
+{
+  "scenario": "airfield_tower_walk_001",
+  "scene": "twin01",
+  "actors": [
+    {
+      "actor_id": "actor_001",
+      "action": "walk",
+      "avatar": "avatar2",
+      "driver": "/home/24singhk/Layer3_Prototype/gs_twin01/airfield_tower_walk_001/trajectories/actor_001.driver.pkl",
+      "start_time_s": 0.0,
+      "duration_s": 23.85,
+      "start": [
+        -13.38,
+        0.1,
+        -19.66
+      ],
+      "goal": [
+        -8.28,
+        0.1,
+        4.51
+      ]
+    }
+  ]
+}

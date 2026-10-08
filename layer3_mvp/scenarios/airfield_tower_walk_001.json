@@ -1,0 +1,31 @@
+{
+  "scenario": "airfield_tower_walk_001",
+  "scene": "twin01",
+  "scene_root": "gs_twin01",
+  "source_spec": "/home/24singhk/Layer3_Prototype/layer3_mvp/specs/airfield_tower_walk_001.json",
+  "max_walk_seconds": 36,
+  "actors": [
+    {
+      "actor_id": "actor_001",
+      "action": "walk",
+      "avatar": "avatar2",
+      "start": [
+        -13.38,
+        0.1,
+        -19.66
+      ],
+      "goal": [
+        -8.28,
+        0.1,
+        4.51
+      ],
+      "start_time_s": 0.0,
+      "seed": 1,
+      "prompt": "person walking normally from the car park to the control tower building",
+      "anomaly": false,
+      "anomaly_type": null,
+      "severity": null,
+      "route_length_m": 24.7
+    }
+  ]
+}

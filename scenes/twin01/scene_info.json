@@ -1,0 +1,268 @@
+{
+  "twin_id": "twin01",
+  "source_ply": "scenes_in/twin01/point_cloud.ply",
+  "gaussians": 406667,
+  "metres_per_unit": 4.2,
+  "up_in_source": [
+    0.005104926767249167,
+    -0.5271703979128678,
+    -0.8497442622854772
+  ],
+  "rotation_source_to_scene": [
+    [
+      0.9999869697764572,
+      0.00269120134216188,
+      0.00433793875416921
+    ],
+    [
+      0.005104926767249167,
+      -0.5271703979128678,
+      -0.8497442622854772
+    ],
+    [
+      0.0,
+      0.8497553347874462,
+      -0.5271772671505055
+    ]
+  ],
+  "ground_offset_units": -4.537963929944656,
+  "recentre_units": [
+    -0.19279366731643677,
+    -0.31594130396842957
+  ],
+  "frame": "Y up, metres, origin on the ground under the tallest structure",
+  "bounds_m": {
+    "x": [
+      -30.081009488582612,
+      40.158743235111224
+    ],
+    "z": [
+      -32.99061938881874,
+      30.476836800813675
+    ],
+    "tallest": 18.92755118588631
+  },
+  "walkable_grid": {
+    "origin_xz": [
+      -33.08100948858261,
+      -35.99061938881874
+    ],
+    "cell_m": 0.25,
+    "shape_hw": [
+      278,
+      305
+    ]
+  },
+  "objects": [
+    {
+      "object_id": "vehicle_01",
+      "label": "parked_vehicle",
+      "position": [
+        15.35,
+        0.0,
+        -22.17
+      ],
+      "size_lwh": [
+        4.6,
+        1.77,
+        1.56
+      ],
+      "yaw_deg": 50.7
+    },
+    {
+      "object_id": "vehicle_02",
+      "label": "parked_vehicle",
+      "position": [
+        19.69,
+        0.0,
+        -21.03
+      ],
+      "size_lwh": [
+        4.23,
+        1.66,
+        1.69
+      ],
+      "yaw_deg": 56.3
+    },
+    {
+      "object_id": "vehicle_03",
+      "label": "parked_vehicle",
+      "position": [
+        -10.39,
+        0.0,
+        -19.68
+      ],
+      "size_lwh": [
+        6.19,
+        2.07,
+        1.99
+      ],
+      "yaw_deg": 81.1
+    },
+    {
+      "object_id": "vehicle_04",
+      "label": "parked_vehicle",
+      "position": [
+        13.65,
+        0.0,
+        -20.08
+      ],
+      "size_lwh": [
+        4.25,
+        1.65,
+        1.56
+      ],
+      "yaw_deg": 55.9
+    },
+    {
+      "object_id": "vehicle_05",
+      "label": "parked_vehicle",
+      "position": [
+        9.92,
+        0.0,
+        -20.07
+      ],
+      "size_lwh": [
+        4.46,
+        1.71,
+        1.92
+      ],
+      "yaw_deg": 49.3
+    },
+    {
+      "object_id": "vehicle_06",
+      "label": "parked_vehicle",
+      "position": [
+        7.02,
+        0.0,
+        -18.63
+      ],
+      "size_lwh": [
+        3.97,
+        1.72,
+        1.38
+      ],
+      "yaw_deg": 48.9
+    },
+    {
+      "object_id": "vehicle_07",
+      "label": "parked_vehicle",
+      "position": [
+        17.21,
+        0.0,
+        -9.45
+      ],
+      "size_lwh": [
+        4.11,
+        1.86,
+        1.48
+      ],
+      "yaw_deg": 99.8
+    },
+    {
+      "object_id": "vehicle_08",
+      "label": "parked_vehicle",
+      "position": [
+        19.73,
+        0.0,
+        -6.6
+      ],
+      "size_lwh": [
+        3.74,
+        2.19,
+        2.31
+      ],
+      "yaw_deg": -143.3
+    },
+    {
+      "object_id": "vehicle_09",
+      "label": "parked_vehicle",
+      "position": [
+        35.35,
+        0.0,
+        4.95
+      ],
+      "size_lwh": [
+        4.55,
+        1.67,
+        1.48
+      ],
+      "yaw_deg": 98.9
+    },
+    {
+      "object_id": "vehicle_10",
+      "label": "parked_vehicle",
+      "position": [
+        -10.95,
+        0.0,
+        6.41
+      ],
+      "size_lwh": [
+        5.34,
+        2.29,
+        1.77
+      ],
+      "yaw_deg": 65.1
+    },
+    {
+      "object_id": "vehicle_11",
+      "label": "parked_vehicle",
+      "position": [
+        37.63,
+        0.0,
+        16.18
+      ],
+      "size_lwh": [
+        4.65,
+        1.8,
+        1.44
+      ],
+      "yaw_deg": 59.9
+    },
+    {
+      "object_id": "vehicle_12",
+      "label": "parked_vehicle",
+      "position": [
+        -2.67,
+        0.0,
+        19.59
+      ],
+      "size_lwh": [
+        4.34,
+        1.93,
+        1.84
+      ],
+      "yaw_deg": 75.8
+    },
+    {
+      "object_id": "vehicle_13",
+      "label": "parked_vehicle",
+      "position": [
+        0.67,
+        0.0,
+        22.31
+      ],
+      "size_lwh": [
+        4.86,
+        2.64,
+        1.57
+      ],
+      "yaw_deg": 125.6
+    },
+    {
+      "object_id": "vehicle_14",
+      "label": "parked_vehicle",
+      "position": [
+        -10.22,
+        0.0,
+        28.33
+      ],
+      "size_lwh": [
+        2.7,
+        1.19,
+        1.49
+      ],
+      "yaw_deg": 171.5
+    }
+  ]
+}

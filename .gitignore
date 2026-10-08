@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+layer3_mvp/outputs/
+*.log
+
+# licensed or third-party assets: obtain from their own sources
+SMPLX/
+GAMMA-release/
+GAMMA_Pretrained_Checkpoints/
+avatars/
+habitat-gs/
+miniconda3/
+cuda-*/

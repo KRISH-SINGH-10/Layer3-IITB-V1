@@ -1,0 +1,114 @@
+{
+  "scenario": "plaza_six",
+  "scene": "scene01",
+  "actors": [
+    {
+      "actor_id": "person_1",
+      "action": "walk",
+      "avatar": "avatar2",
+      "driver": "/home/24singhk/Layer3_Prototype/gs_scene01/plaza_six/trajectories/person_1.driver.pkl",
+      "start_time_s": 0.0,
+      "duration_s": 10.85,
+      "start": [
+        42.67,
+        -0.26,
+        -24.39
+      ],
+      "goal": [
+        53.08,
+        -0.34,
+        -27.1
+      ]
+    },
+    {
+      "actor_id": "person_2",
+      "action": "walk",
+      "avatar": "avatar1",
+      "driver": "/home/24singhk/Layer3_Prototype/gs_scene01/plaza_six/trajectories/person_2.driver.pkl",
+      "start_time_s": 0.0,
+      "duration_s": 12.45,
+      "start": [
+        46.46,
+        -0.3,
+        -16.87
+      ],
+      "goal": [
+        56.2,
+        -0.27,
+        -9.85
+      ]
+    },
+    {
+      "actor_id": "person_3",
+      "action": "walk",
+      "avatar": "avatar2",
+      "driver": "/home/24singhk/Layer3_Prototype/gs_scene01/plaza_six/trajectories/person_3.driver.pkl",
+      "start_time_s": 0.0,
+      "duration_s": 11.85,
+      "start": [
+        42.62,
+        -0.24,
+        -9.55
+      ],
+      "goal": [
+        43.75,
+        -0.27,
+        -21.02
+      ]
+    },
+    {
+      "actor_id": "person_4",
+      "action": "walk",
+      "avatar": "avatar1",
+      "driver": "/home/24singhk/Layer3_Prototype/gs_scene01/plaza_six/trajectories/person_4.driver.pkl",
+      "start_time_s": 0.0,
+      "duration_s": 13.65,
+      "start": [
+        50.92,
+        -0.31,
+        -26.34
+      ],
+      "goal": [
+        48.66,
+        -0.3,
+        -15.63
+      ]
+    },
+    {
+      "actor_id": "person_5",
+      "action": "walk",
+      "avatar": "avatar2",
+      "driver": "/home/24singhk/Layer3_Prototype/gs_scene01/plaza_six/trajectories/person_5.driver.pkl",
+      "start_time_s": 0.0,
+      "duration_s": 9.45,
+      "start": [
+        49.35,
+        -0.28,
+        -24.73
+      ],
+      "goal": [
+        52.58,
+        -0.27,
+        -34.02
+      ]
+    },
+    {
+      "actor_id": "person_6",
+      "action": "walk",
+      "avatar": "avatar1",
+      "driver": "/home/24singhk/Layer3_Prototype/gs_scene01/plaza_six/trajectories/person_6.driver.pkl",
+      "start_time_s": 0.0,
+      "duration_s": 12.65,
+      "start": [
+        55.05,
+        -0.32,
+        -24.85
+      ],
+      "goal": [
+        53.62,
+        -0.27,
+        -35.18
+      ]
+    }
+  ]
+}

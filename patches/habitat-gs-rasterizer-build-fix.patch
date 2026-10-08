@@ -1,0 +1,16 @@
+diff --git a/src/esp/CMakeLists.txt b/src/esp/CMakeLists.txt
+index 2ed150a..11dabfa 100644
+--- a/src/esp/CMakeLists.txt
++++ b/src/esp/CMakeLists.txt
+@@ -600,8 +600,10 @@ if(BUILD_WITH_CUDA)
+   set_target_properties(gaussian_rasterizer_kernels PROPERTIES 
+     CUDA_SEPARABLE_COMPILATION ON
+     CUDA_RESOLVE_DEVICE_SYMBOLS ON
+-    CUDA_ARCHITECTURES "70;75;80;86;90"
++    CUDA_ARCHITECTURES "70;75;80;86;90;100"
+   )
++  # GLM 1.x calls constexpr std functors from device code; without this flag nvcc drops them and the rasterizer renders black.
++  target_compile_options(gaussian_rasterizer_kernels PRIVATE --expt-relaxed-constexpr)
+ 
+   target_link_libraries(habitat_sim PUBLIC noise_model_kernels gaussian_rasterizer_kernels ${CUDART_LIBRARY})
+ 

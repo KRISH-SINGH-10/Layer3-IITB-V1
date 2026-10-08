@@ -1,0 +1,373 @@
+{
+  "scene_id": "airfield_tower_walk_001",
+  "version": "1.0.0",
+  "twin_id": "twin01",
+  "description": "One person walks from a parked car across the apron to the control tower building. Clear daylight.",
+  "tags": [
+    "normal_activity",
+    "walking",
+    "day",
+    "clear"
+  ],
+  "layer_a": {
+    "lighting": {
+      "preset": "noon",
+      "intensity": 1.0,
+      "direction": [
+        0.3,
+        -0.8,
+        0.5
+      ],
+      "color_temp": 5500,
+      "sh_override": null
+    },
+    "weather": {
+      "type": "clear",
+      "intensity": 0.0,
+      "visibility": 1000,
+      "wind_speed": 0.0
+    },
+    "time_of_day": "12:00",
+    "season": "summer"
+  },
+  "layer_b": [
+    {
+      "object_id": "vehicle_01",
+      "position": [
+        15.35,
+        22.17,
+        0.0
+      ],
+      "rotation": 50.7,
+      "scale": 1.0,
+      "visible": true,
+      "label": "parked_vehicle",
+      "anomaly": false,
+      "existing_in_twin": true,
+      "size_lwh": [
+        4.6,
+        1.77,
+        1.56
+      ]
+    },
+    {
+      "object_id": "vehicle_02",
+      "position": [
+        19.69,
+        21.03,
+        0.0
+      ],
+      "rotation": 56.3,
+      "scale": 1.0,
+      "visible": true,
+      "label": "parked_vehicle",
+      "anomaly": false,
+      "existing_in_twin": true,
+      "size_lwh": [
+        4.23,
+        1.66,
+        1.69
+      ]
+    },
+    {
+      "object_id": "vehicle_03",
+      "position": [
+        -10.39,
+        19.68,
+        0.0
+      ],
+      "rotation": 81.1,
+      "scale": 1.0,
+      "visible": true,
+      "label": "parked_vehicle",
+      "anomaly": false,
+      "existing_in_twin": true,
+      "size_lwh": [
+        6.19,
+        2.07,
+        1.99
+      ]
+    },
+    {
+      "object_id": "vehicle_04",
+      "position": [
+        13.65,
+        20.08,
+        0.0
+      ],
+      "rotation": 55.9,
+      "scale": 1.0,
+      "visible": true,
+      "label": "parked_vehicle",
+      "anomaly": false,
+      "existing_in_twin": true,
+      "size_lwh": [
+        4.25,
+        1.65,
+        1.56
+      ]
+    },
+    {
+      "object_id": "vehicle_05",
+      "position": [
+        9.92,
+        20.07,
+        0.0
+      ],
+      "rotation": 49.3,
+      "scale": 1.0,
+      "visible": true,
+      "label": "parked_vehicle",
+      "anomaly": false,
+      "existing_in_twin": true,
+      "size_lwh": [
+        4.46,
+        1.71,
+        1.92
+      ]
+    },
+    {
+      "object_id": "vehicle_06",
+      "position": [
+        7.02,
+        18.63,
+        0.0
+      ],
+      "rotation": 48.9,
+      "scale": 1.0,
+      "visible": true,
+      "label": "parked_vehicle",
+      "anomaly": false,
+      "existing_in_twin": true,
+      "size_lwh": [
+        3.97,
+        1.72,
+        1.38
+      ]
+    },
+    {
+      "object_id": "vehicle_07",
+      "position": [
+        17.21,
+        9.45,
+        0.0
+      ],
+      "rotation": 99.8,
+      "scale": 1.0,
+      "visible": true,
+      "label": "parked_vehicle",
+      "anomaly": false,
+      "existing_in_twin": true,
+      "size_lwh": [
+        4.11,
+        1.86,
+        1.48
+      ]
+    },
+    {
+      "object_id": "vehicle_08",
+      "position": [
+        19.73,
+        6.6,
+        0.0
+      ],
+      "rotation": -143.3,
+      "scale": 1.0,
+      "visible": true,
+      "label": "parked_vehicle",
+      "anomaly": false,
+      "existing_in_twin": true,
+      "size_lwh": [
+        3.74,
+        2.19,
+        2.31
+      ]
+    },
+    {
+      "object_id": "vehicle_09",
+      "position": [
+        35.35,
+        -4.95,
+        0.0
+      ],
+      "rotation": 98.9,
+      "scale": 1.0,
+      "visible": true,
+      "label": "parked_vehicle",
+      "anomaly": false,
+      "existing_in_twin": true,
+      "size_lwh": [
+        4.55,
+        1.67,
+        1.48
+      ]
+    },
+    {
+      "object_id": "vehicle_10",
+      "position": [
+        -10.95,
+        -6.41,
+        0.0
+      ],
+      "rotation": 65.1,
+      "scale": 1.0,
+      "visible": true,
+      "label": "parked_vehicle",
+      "anomaly": false,
+      "existing_in_twin": true,
+      "size_lwh": [
+        5.34,
+        2.29,
+        1.77
+      ]
+    },
+    {
+      "object_id": "vehicle_11",
+      "position": [
+        37.63,
+        -16.18,
+        0.0
+      ],
+      "rotation": 59.9,
+      "scale": 1.0,
+      "visible": true,
+      "label": "parked_vehicle",
+      "anomaly": false,
+      "existing_in_twin": true,
+      "size_lwh": [
+        4.65,
+        1.8,
+        1.44
+      ]
+    },
+    {
+      "object_id": "vehicle_12",
+      "position": [
+        -2.67,
+        -19.59,
+        0.0
+      ],
+      "rotation": 75.8,
+      "scale": 1.0,
+      "visible": true,
+      "label": "parked_vehicle",
+      "anomaly": false,
+      "existing_in_twin": true,
+      "size_lwh": [
+        4.34,
+        1.93,
+        1.84
+      ]
+    },
+    {
+      "object_id": "vehicle_13",
+      "position": [
+        0.67,
+        -22.31,
+        0.0
+      ],
+      "rotation": 125.6,
+      "scale": 1.0,
+      "visible": true,
+      "label": "parked_vehicle",
+      "anomaly": false,
+      "existing_in_twin": true,
+      "size_lwh": [
+        4.86,
+        2.64,
+        1.57
+      ]
+    },
+    {
+      "object_id": "vehicle_14",
+      "position": [
+        -10.22,
+        -28.33,
+        0.0
+      ],
+      "rotation": 171.5,
+      "scale": 1.0,
+      "visible": true,
+      "label": "parked_vehicle",
+      "anomaly": false,
+      "existing_in_twin": true,
+      "size_lwh": [
+        2.7,
+        1.19,
+        1.49
+      ]
+    }
+  ],
+  "layer_c": [
+    {
+      "actor_id": "actor_001",
+      "prompt": "person walking normally from the car park to the control tower building",
+      "start_pos": [
+        -13.38,
+        19.66
+      ],
+      "goal_pos": [
+        -8.28,
+        -4.51
+      ],
+      "start_frame": 0,
+      "end_frame": null,
+      "speed": "normal",
+      "appearance": {
+        "height": 1.75,
+        "build": "medium",
+        "clothing": "casual_maroon_shirt"
+      },
+      "interaction": {
+        "target_object": null,
+        "interaction_type": null
+      },
+      "anomaly": false
+    }
+  ],
+  "drone": {
+    "altitude": 25.0,
+    "gimbal_angle": 38.7,
+    "trajectory": {
+      "type": "hover",
+      "position": [
+        -30.83,
+        7.58
+      ],
+      "speed": 0.0,
+      "orbit_radius": null,
+      "waypoints": null
+    },
+    "sensor": {
+      "type": "rgb",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fov": 70.0,
+      "noise": 0.0
+    }
+  },
+  "output": {
+    "n_frames": 750,
+    "fps": 30,
+    "annotation_types": [
+      "bbox_2d",
+      "action_label"
+    ],
+    "gan_adaptation": false,
+    "gan_model": null,
+    "export_formats": [],
+    "save_layers": false,
+    "save_depth": true
+  },
+  "metadata": {
+    "created_by": "layer3_mvp/onboard_scene.py + hand-written example",
+    "coordinate_frame": "x = scene X, y = -scene Z, z up; metres; origin on the ground under the control tower",
+    "scale_note": "source PLY had no metric scale; 4.2 m per unit estimated from 14 parked cars",
+    "layer3_extensions": [
+      "layer_c[].goal_pos (destination; the base schema has none)",
+      "layer_b[].existing_in_twin and size_lwh (objects detected in the twin, not placed)"
+    ]
+  }
+}

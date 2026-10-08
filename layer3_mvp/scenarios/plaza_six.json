@@ -1,0 +1,109 @@
+{
+  "scenario": "plaza_six",
+  "scene": "scene01",
+  "description": "Six people walking across the plaza on different routes.",
+  "actors": [
+    {
+      "actor_id": "person_1",
+      "action": "walk",
+      "avatar": "avatar2",
+      "start": [
+        42.67,
+        -0.26,
+        -24.39
+      ],
+      "goal": [
+        53.08,
+        -0.34,
+        -27.1
+      ],
+      "start_time_s": 0,
+      "seed": 1
+    },
+    {
+      "actor_id": "person_2",
+      "action": "walk",
+      "avatar": "avatar1",
+      "start": [
+        46.46,
+        -0.3,
+        -16.87
+      ],
+      "goal": [
+        56.2,
+        -0.27,
+        -9.85
+      ],
+      "start_time_s": 0,
+      "seed": 2
+    },
+    {
+      "actor_id": "person_3",
+      "action": "walk",
+      "avatar": "avatar2",
+      "start": [
+        42.62,
+        -0.24,
+        -9.55
+      ],
+      "goal": [
+        43.75,
+        -0.27,
+        -21.02
+      ],
+      "start_time_s": 0,
+      "seed": 3
+    },
+    {
+      "actor_id": "person_4",
+      "action": "walk",
+      "avatar": "avatar1",
+      "start": [
+        50.92,
+        -0.31,
+        -26.34
+      ],
+      "goal": [
+        48.66,
+        -0.3,
+        -15.63
+      ],
+      "start_time_s": 0,
+      "seed": 4
+    },
+    {
+      "actor_id": "person_5",
+      "action": "walk",
+      "avatar": "avatar2",
+      "start": [
+        49.35,
+        -0.28,
+        -24.73
+      ],
+      "goal": [
+        52.58,
+        -0.27,
+        -34.02
+      ],
+      "start_time_s": 0,
+      "seed": 5
+    },
+    {
+      "actor_id": "person_6",
+      "action": "walk",
+      "avatar": "avatar1",
+      "start": [
+        55.05,
+        -0.32,
+        -24.85
+      ],
+      "goal": [
+        53.62,
+        -0.27,
+        -35.18
+      ],
+      "start_time_s": 0,
+      "seed": 6
+    }
+  ]
+}
